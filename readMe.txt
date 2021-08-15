@@ -27,6 +27,7 @@ docker push gcr.io/fba-be/fbabe:v1
 
 Docker img run local cmd: 'gcr.io/fba-be/fbabe:v2' img name
 docker run -p 8080:8080 gcr.io/fba-be/fbabe:v2
+8080:8080 -> right one is the port where app will get hit.
 
 usefull link: 
 https://www.youtube.com/watch?v=ejwiMFJETdQ&t=2s
