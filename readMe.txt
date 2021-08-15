@@ -21,7 +21,7 @@ gcr.io -> , gcr.io is a google registory container,
 fba-be -> GCP project name.
 fbabe:v1 -> docker img name with version
 
-Docker push: This will docker img to google registory container, 
+Docker push: This will docker img to google registory container, We have to define gcp region, before pushing
 We can have a look the exact img in GCP-> https://console.cloud.google.com/gcr/images/
 docker push gcr.io/fba-be/fbabe:v1
 
